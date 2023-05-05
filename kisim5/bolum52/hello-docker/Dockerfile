@@ -1,7 +1,7 @@
 # Bu örnek uygulama https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md adresinden alınmıştır
 # base imaj olarak nginx resmi imajını kullanıyoruz -- 
 # https://github.com/nginxinc/docker-nginx/blob/5971de30c487356d5d2a2e1a79e02b2612f9a72f/mainline/buster/Dockerfile
-FROM nginx:latest
+FROM nginx:1-bullseye
 
 
 # label ile de key value pair olarak bu imajla ilgili bilgileri giriyoruz. her iki talimat da imajın içindeki sistemle alakalı değil.
