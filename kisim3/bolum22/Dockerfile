@@ -1,4 +1,4 @@
-FROM httpd:alpine
+FROM httpd:2.4.59-alpine3.20
 MAINTAINER @ozgurozturknet (ozgur@ozgurozturk.net)
 
 RUN apk add htop gzip iputils curl apache2 tree openjdk7-jre
